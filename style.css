@@ -18,7 +18,7 @@ html {
 body {
     margin: 0; 
     padding: 0;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-weight: 300; 
     background-color: #CFF5E7;
     color: #000;
@@ -94,8 +94,8 @@ body {
 } 
 
 .projectCard {
-    background-color: #000;
-    color: #A0E4CB;
+    background-color: #fff;
+    color: #59C1BD;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem; 
     text-align: center;
