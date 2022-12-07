@@ -32,7 +32,7 @@ body {
 } 
 
 .heroImage { 
-    padding: 5rem;
+    padding: 6rem;
 }
 
 .heroImage img { 
@@ -168,6 +168,24 @@ footer {
     height: 80vh;
 }
 
+.aboutMe { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+} 
+
+
+.mypic { 
+    padding: 6rem;
+}
+
+.mypic img { 
+    border-radius: 6rem;
+    box-shadow: 10px 10px #000; 
+    width: 100%;
+    height: auto;
+}
 
 
 
