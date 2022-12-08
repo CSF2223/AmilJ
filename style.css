@@ -175,7 +175,6 @@ footer {
     align-items: center;
 } 
 
-
 .mypic { 
     padding: 6rem;
 }
@@ -187,9 +186,25 @@ footer {
     height: auto;
 }
 
+.myText { 
+    padding: 2rem;
+}
 
+.text1 {
+  width: 250px;
+  height: 25px;
+  background-color: lightblue;
+  animation-name: example;
+  animation-duration: 4s;
+}
 
-
+.text2 { 
+  width: 300px;
+  height: 370px;
+  background-color: lightblue;
+  animation-name: example;
+  animation-duration: 4s;
+}
 
 
 @media (min-width: 800px) { 
@@ -201,7 +216,7 @@ footer {
     }
     
     .heroText { 
-        font-size: 1rem;
+        font-size: 2rem;
     }
     
     .heroName { 
@@ -221,5 +236,25 @@ footer {
     
     .projectCard { 
         max-width: 20%;
+    }
+    
+    .heroImage { 
+    padding: 30rem;
+    }
+    
+    .aboutMe { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+    
+    .mypic { 
+    padding: 35rem;    
+    } 
+    
+    .myText {  
+        padding: 1rem;
+        font-size: 2rem;
     }
 }
